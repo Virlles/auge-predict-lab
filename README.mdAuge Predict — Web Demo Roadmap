@@ -1,0 +1,16 @@
+# Auge Predict — Web Demo Roadmap
+
+## Phase 1 — Core
+- [x] Reputation model
+- [x] Binary markets
+
+## Phase 2 — API
+- [ ] Read-only endpoints
+- [ ] Seed data
+
+## Phase 3 — Web Demo
+- [ ] Market list
+- [ ] Odds visualization
+- [ ] Public ranking
+
+⚠️ No real money. No betting.
