@@ -1,0 +1,5 @@
+[ Core Engine ]  ← regras, reputação, mercados
+       ↓
+[ API Layer ]   ← Flask/FastAPI
+       ↓
+[ Web Demo ]    ← HTML simples (ou depois React)
