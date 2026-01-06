@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auge Predict — Demo</title>
+</head>
+<body>
+  <h1>Auge Predict (Experimental)</h1>
+  <p>Prediction market based on reputation, not money.</p>
+
+  <h2>Markets</h2>
+  <div id="markets"></div>
+
+  <script>
+    fetch("http://localhost:5000/markets")
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById("markets").innerHTML =
+          JSON.stringify(data, null, 2)
+      })
+  </script>
+</body>
+</html>
